@@ -2,7 +2,7 @@ const express = require("express");
 const dotenv = require("dotenv");
 dotenv.config();
 const app = express();
-const routes = require("./src/routes/index"); // Adjust the path here
+const routes = require("./src/Routes/routes"); // Adjust the path here
 const mongoConnect = require("./src/config/mongoose");
 const bodyParser = require("body-parser");
 
